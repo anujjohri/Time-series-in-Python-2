@@ -5,6 +5,7 @@ In this code, we will implement ARIMA models
 ARIMA - AutoRegressive intergrated moving avg technique
 
 
+
 AR - auto regressive
 
 parameter - p  - how many pervious time periods that needs to be considered(known as lags)
@@ -13,11 +14,13 @@ The value of current time period is obtained depending upon the values of previo
 
 
 
+
 MA - moving avg - works on error term on each lags
 
 parameter - q - number of lags
 
 The value of current time period is obtained depending upon the error terms of previous time periods 
+
 
 
 ARMA
@@ -30,6 +33,7 @@ ARMA not suitable when we have trend and seasonality in data
 
 
 
+
 ARIMA
 
 works well when we have trend 
@@ -39,6 +43,7 @@ parameter- d - order of diff used to remove the trend component from the data
 parameter - p, q 
 
 if d=0 , it becomes ARMA
+
 
 
 
