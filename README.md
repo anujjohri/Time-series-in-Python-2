@@ -1,6 +1,6 @@
 # Time-series-in-Python-2
 
-In this code, we will implement ARIMA models
+In this code, we will implement ARIMA model
 
 ## ARIMA - AutoRegressive intergrated moving avg technique
 
